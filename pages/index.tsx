@@ -4,11 +4,11 @@ import Link from 'next/link'
 import Date from '../components/date'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import { getSortPostData } from '../lib/posts'
-
 import { getSortedPostsData } from '../lib/posts'
 
-export const getServerSideProps: GetStaticProps = async context => {
+
+
+export const getStaticProps: GetStaticProps = async context => {
     const allPostsData = getSortedPostsData()
     return {
         props: {
@@ -18,9 +18,9 @@ export const getServerSideProps: GetStaticProps = async context => {
 }
 
 type Props = {
-    allPstsData: {
+    allPostsData: {
         id: string
-        tile: string
+        title: string
         date: string
     }[]
 }
