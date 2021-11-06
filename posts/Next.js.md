@@ -1,5 +1,5 @@
 ﻿---
-title: 'Next.jsの勉強を始めてみた'
+title: 'fuck you'
 date: '2021-10-25'
 ---
 
