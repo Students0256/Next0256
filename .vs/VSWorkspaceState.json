@@ -7,10 +7,8 @@
     "\\pages\\api",
     "\\pages\\posts",
     "\\posts",
-    "\\public",
-    "\\public\\images",
-    "\\styles"
+    "\\public\\images"
   ],
-  "SelectedNode": "\\components",
+  "SelectedNode": "\\components\\layout.js",
   "PreviewInSolutionExplorer": false
 }

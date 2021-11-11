@@ -1,10 +1,10 @@
-import Head from 'next/head'
+﻿import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Gorin Boku'
+const name = '僕オリンピック'
 export const siteTitle = 'Gorin\'s blog'
 
 export default function Layout({ children, home }) {
